@@ -1,0 +1,12 @@
+com\details\NACE\model\FoodItem.class
+com\details\NACE\model\ItemIncludes.class
+com\details\NACE\exception\NotFoundException.class
+com\details\NACE\configuration\SwaggerConfig.class
+com\details\NACE\repository\NaceRepository.class
+com\details\NACE\controller\NaceController.class
+com\details\NACE\model\ItemExclude.class
+com\details\NACE\model\NaceDetailsDTO.class
+com\details\NACE\service\NaceService.class
+com\details\NACE\service\NaceServiceImpl.class
+com\details\NACE\NaceApplication.class
+com\details\NACE\model\ItemAlsoIncludes.class
