@@ -10,7 +10,7 @@ created unique Index : db.naceDetails.createIndex( { "order": 1 }, { unique: tru
 6. Created sample of custom exception under exception folder
 7. Created end points for putNaceDetails and getNaceDetails, Able to add NACE details from swagger using post mapping and get details based on order by using get mapping
 8. Data structure implemted based on NACE csv file.
-9. Used MongoRepository for data storage, Not used hibernate mapping (OneToMany) because of no sql.)
+9. Used MongoRepository for data storage, Not used hibernate mapping (OneToMany) because of embedded in MongoRepository)
 10. Created NaceService method for create and getDetails 
 11. Implemented NaceService method in NaceServiceImpl and saved data with the help of NaceRepository, NaceRepository which extends MongoRepository
 12. MongoRepository supports curd opertion and calling save method for repository method.
