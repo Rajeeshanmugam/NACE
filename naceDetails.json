@@ -1,0 +1,208 @@
+[{
+  "_id": {
+    "$oid": "607b641561a44b68250c13ba"
+  },
+  "order": 398484,
+  "level": 4,
+  "code": "1.11",
+  "parent": "1.1",
+  "description": "Growing of cereals (except rice), leguminous crops and oil seeds",
+  "itemInclude": {
+    "foodIncludeItemDesc": "This class includes all forms of growing of cereals, leguminous crops and oil seeds in open fields. The growing of these crops is often combined within agricultural units.",
+    "foodItems": [
+      {
+        "typeofGrowing": "- growing of cereals such as:",
+        "typeofGrowingsubList": [
+          "wheat",
+          "grain maize",
+          "sorghum",
+          "barley",
+          "rye",
+          "oats",
+          "millets",
+          "other cereals n.e.c."
+        ]
+      },
+      {
+        "typeofGrowing": "- growing of leguminous crops such as:",
+        "typeofGrowingsubList": [
+          "beans",
+          "broad beans",
+          "chick peas",
+          "cow peas",
+          "lentils",
+          "lupines",
+          "peas",
+          "pigeon peas"
+        ]
+      },
+      {
+        "typeofGrowing": "- growing of oil seeds such as:",
+        "typeofGrowingsubList": [
+          "soya beans",
+          "groundnuts",
+          "castor bean"
+        ]
+      }
+    ]
+  },
+  "itemAlsoInclude": {
+    "foodItemAlsoIncludeDesc": "Also included are post-harvest crop activities, aimed at preparing agricultural products for the primary market.",
+    "foodItemsAlsoInclSubList": [
+      "activities of farriers",
+      "provision of agricultural machinery with operators and crew"
+    ]
+  },
+  "rulings": [
+    "Nurturing and selling of tree seedlings"
+  ],
+  "itemExclude": {
+    "itemExcludeDesc": "string",
+    "excludeItemList": [
+      "growing of rice, see 01.12",
+      "growing of sweet corn, see 01.13",
+      "growing of maize for fodder, see 01.19",
+      "growing of oleaginous fruits, see 01.26"
+    ]
+  },
+  "referenceToISIC": "111",
+  "_class": "com.details.NACE.model.NaceDetailsDTO"
+},{
+  "_id": {
+    "$oid": "607b697961a44b68250c13bd"
+  },
+  "order": 398485,
+  "level": 5,
+  "code": "2.11",
+  "parent": "2.1",
+  "description": "Growing of cereals (except rice), leguminous crops and oil seeds",
+  "itemInclude": {
+    "foodIncludeItemDesc": "This class includes all forms of growing of cereals, leguminous crops and oil seeds in open fields. The growing of these crops is often combined within agricultural units.",
+    "foodItems": [
+      {
+        "typeofGrowing": "- growing of cereals such as:",
+        "typeofGrowingsubList": [
+          "wheat",
+          "grain maize",
+          "sorghum",
+          "barley",
+          "rye",
+          "oats",
+          "millets",
+          "other cereals n.e.c."
+        ]
+      },
+      {
+        "typeofGrowing": "- growing of leguminous crops such as:",
+        "typeofGrowingsubList": [
+          "beans",
+          "broad beans",
+          "chick peas",
+          "cow peas",
+          "lentils",
+          "lupines",
+          "peas",
+          "pigeon peas"
+        ]
+      },
+      {
+        "typeofGrowing": "- growing of oil seeds such as:",
+        "typeofGrowingsubList": [
+          "soya beans",
+          "groundnuts",
+          "castor bean"
+        ]
+      }
+    ]
+  },
+  "itemAlsoInclude": {
+    "foodItemAlsoIncludeDesc": "Also included are post-harvest crop activities, aimed at preparing agricultural products for the primary market.",
+    "foodItemsAlsoInclSubList": [
+      "activities of farriers",
+      "provision of agricultural machinery with operators and crew"
+    ]
+  },
+  "rulings": [
+    "Nurturing and selling of tree seedlings"
+  ],
+  "itemExclude": {
+    "itemExcludeDesc": "string",
+    "excludeItemList": [
+      "growing of rice, see 01.12",
+      "growing of sweet corn, see 01.13",
+      "growing of maize for fodder, see 01.19",
+      "growing of oleaginous fruits, see 01.26"
+    ]
+  },
+  "referenceToISIC": "121",
+  "_class": "com.details.NACE.model.NaceDetailsDTO"
+},{
+  "_id": {
+    "$oid": "607b69bb61a44b68250c13be"
+  },
+  "order": 398486,
+  "level": 6,
+  "code": "3.11",
+  "parent": "6.1",
+  "description": "Growing of cereals (except rice), leguminous crops and oil seeds",
+  "itemInclude": {
+    "foodIncludeItemDesc": "This class includes all forms of growing of cereals, leguminous crops and oil seeds in open fields. The growing of these crops is often combined within agricultural units.",
+    "foodItems": [
+      {
+        "typeofGrowing": "- growing of cereals such as:",
+        "typeofGrowingsubList": [
+          "wheat",
+          "grain maize",
+          "sorghum",
+          "barley",
+          "rye",
+          "oats",
+          "millets",
+          "other cereals n.e.c."
+        ]
+      },
+      {
+        "typeofGrowing": "- growing of leguminous crops such as:",
+        "typeofGrowingsubList": [
+          "beans",
+          "broad beans",
+          "chick peas",
+          "cow peas",
+          "lentils",
+          "lupines",
+          "peas",
+          "pigeon peas"
+        ]
+      },
+      {
+        "typeofGrowing": "- growing of oil seeds such as:",
+        "typeofGrowingsubList": [
+          "soya beans",
+          "groundnuts",
+          "castor bean"
+        ]
+      }
+    ]
+  },
+  "itemAlsoInclude": {
+    "foodItemAlsoIncludeDesc": "Also included are post-harvest crop activities, aimed at preparing agricultural products for the primary market.",
+    "foodItemsAlsoInclSubList": [
+      "activities of farriers",
+      "provision of agricultural machinery with operators and crew"
+    ]
+  },
+  "rulings": [
+    "Nurturing and selling of tree seedlings"
+  ],
+  "itemExclude": {
+    "itemExcludeDesc": "string",
+    "excludeItemList": [
+      "growing of rice, see 01.12",
+      "growing of sweet corn, see 01.13",
+      "growing of maize for fodder, see 01.19",
+      "growing of oleaginous fruits, see 01.26"
+    ]
+  },
+  "referenceToISIC": "321",
+  "_class": "com.details.NACE.model.NaceDetailsDTO"
+}]
