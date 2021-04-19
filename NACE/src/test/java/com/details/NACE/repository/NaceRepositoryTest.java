@@ -94,8 +94,8 @@ public class NaceRepositoryTest {
 	@Test
 	public void test_create() throws IOException {
 		NaceDetailsDTO createdDto = naceRepository.save(nacedetailsDto);
-		//assertNotNull(createdDto);
-		//assertEquals(nacedetailsDto.getCode(), createdDto.getCode());
+		assertNotNull(createdDto);
+		assertEquals(nacedetailsDto.getCode(), createdDto.getCode());
 	}
 
 	@Test
