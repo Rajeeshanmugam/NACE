@@ -92,13 +92,13 @@ public class NaceServiceTest {
 	 @Test
 	 public void test_create() throws IOException{
 		 NaceDetailsDTO createdDto = naceServiceMock.create(nacedetailsDto);
-		 //assertNotNull(naceServiceMock.create(nacedetailsDto));
-		 //assertEquals(nacedetailsDto.getCode(),createdDto.getCode());
+		 assertNotNull(naceServiceMock.create(nacedetailsDto));
+		 assertEquals(nacedetailsDto.getCode(),createdDto.getCode());
 	 }
 	 
 	 @Test
 	 public void test_getDetails() throws IOException{
 		 NaceDetailsDTO returnedDto = naceServiceMock.getDetails(398484);
-		 //assertNotNull(returnedDto);
+		 assertNotNull(returnedDto);
 	 }
 }
